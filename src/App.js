@@ -4,13 +4,14 @@ import logo from './Logo.jpg';
 import fb from './facebook.jpg';
 import hg from './hangout.jpg';
 import ig from './instagram.jpg';
+import { render } from '@testing-library/react';
 
 function App() {
   return (
     <div className="App">
       <div className="head">
-          <a href="App.js"><button className="HeadButtons">Aktualności</button></a>
-          <a href="Kontakt.js"><button className="HeadButtons">Kontakt</button></a>
+        <a><button className="HeadButtons" onClick="Zakładki()">Aktualności</button></a>
+          <a><button className="HeadButtons">Kontakt</button></a>
       </div>
       <header className="LRlist">
           <div>
@@ -32,17 +33,22 @@ function App() {
               <img className="links" src={ig} alt="igcon"/>
             </a>
           </aside><br/>
-          <table className="title">
-            <tr>
-              <td>
-                Post nr1<br/><br/>
-              </td>
-            </tr>
-          </table>
+          
         </div>
       </main>
     </div>
   );
+  function Zakladki() {
+    return(
+      <table className="title">
+        <tr>
+          <td>
+           Post nr1<br/><br/>
+           </td>
+        </tr>
+      </table>
+    );
+  }
 }
 
 export default App;
