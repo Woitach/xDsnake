@@ -35,7 +35,7 @@ function App() {
           <table className="title">
             <tr>
               <td>
-                Post nr1<br/><br/>
+                Kontakt<br/><br/>
               </td>
             </tr>
           </table>
