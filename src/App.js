@@ -3,29 +3,31 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  function SendPost(){
-    console.log("sendt");
-  }
   return (
     <div className="App">
       <div className="head">
-
       </div>
       <header className="LRlist">
           <div>
-            <img src="Logo.jpg" className="logo"></img>
+            <img width="200" height="200" src="Logo.jpg"></img>
           </div>
       </header>
       <main className="Leftsite">
-        <input if="post" type="text" className="tekst"></input>
-        <input type="button" onclick="SendPost()"></input>
+        <form onSubmit={Postt()}>
+          <input id="post" type="text" className="tekst" value="Co powiesz ciekawego?"></input>
+          <input type="submit"></input>
+        </form>
+        
       </main>
       <aside className="Rightsite">
         xx
       </aside>
     </div>
   );
-  
+  function Postt() {
+    var tekstt = document.getElementById("post");
+    console.log(tekstt);
+  }
 }
 
 export default App;
