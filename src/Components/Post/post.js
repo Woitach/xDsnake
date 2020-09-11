@@ -1,9 +1,7 @@
 import React from 'react';
 import './post.css';
 
-function Postscript(title, descript) {
-    var title = "siema";
-    var descript = "siema";
+function Postscript({title, descript}) {
     return (
         <header>
             <table className="titletable">
@@ -14,10 +12,10 @@ function Postscript(title, descript) {
                 </tr>
                 <tr>
                     <td className="title2">
-                        W tym poscie ma byc cos fajnego
+                        {descript}
                     </td>
                 </tr>
-            </table>
+            </table><br/><br/>
         </header>
     );
 }
