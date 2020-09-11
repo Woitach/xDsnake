@@ -10,6 +10,7 @@ function Contact() {
                     Kontakt<br/><br/>
                 </td>
                 </tr>
+                <tr className="Shadow"><td>.</td></tr>
             </table>
         </header>
     );

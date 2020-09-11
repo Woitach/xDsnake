@@ -1,7 +1,12 @@
 .title{
-    margin: auto;
-    align-items: center;
-    width: 30%;
-    height: 22px;
-    background-color: #EEEEEE;
-  }
+  margin: auto;
+  align-items: center;
+  width: 30%;
+  height: 22px;
+  background-color: #EEEEEE;
+}
+.Shadow{
+background-image: linear-gradient(to right, #EEEEEE, black, #EEEEEE);
+height: 2px;
+font-size: 1px;
+}

@@ -10,6 +10,7 @@ function About() {
                     O mnie<br/><br/>
                 </td>
                 </tr>
+                <tr className="Shadow"><td>.</td></tr>
             </table>
         </header>
     );

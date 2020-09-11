@@ -1,20 +1,25 @@
 .head{
+    
     height: 40px;
     background-color: #333333;
-  }
-  .LRlist{
-    height: 350px;
-    background-image: linear-gradient(to right, blue, pink);
-  }
-  .table{
-    width: 100%;
-    height: 100%;
-  }
-  .Buttons{
-    color: white;
-    width: 120px;
-    height: 100%;
-    background-color: #333333;
-    border-width: 2px;
-    border-color: white;
-  }
+}
+.LRlist{
+  height: 350px;
+  background-image: linear-gradient(to right, blue, pink);
+}
+.table{
+  width: 100%;
+  height: 100%;
+}
+.Buttons{
+  float: right;
+  color: white;
+  width: 120px;
+  height: 100%;
+  background-color: #333333;  
+}
+.blog{
+  font-size: 30px;
+  float: left;
+  color:White;
+}
