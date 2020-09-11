@@ -4,6 +4,7 @@
     width: 30%;
     height: 22px;
     background-color: #EEEEEE;
+    border:0;
 }
 .Shadow{
   background-image: linear-gradient(to right, #EEEEEE, black, #EEEEEE);

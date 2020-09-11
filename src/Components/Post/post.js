@@ -1,13 +1,18 @@
 import React from 'react';
-import './style.css';
+import './post.css';
 
 function Main() {
     return (
         <header>
-            <table className="description">
+            <table className="titletable">
                 <tr>
-                    <td >
-                        To jest Post<br/><br/>
+                    <td className="description">
+                        Bardzo ciekawy post<br/><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td className="title2">
+                        W tym poscie ma byc cos fajnego
                     </td>
                 </tr>
             </table>

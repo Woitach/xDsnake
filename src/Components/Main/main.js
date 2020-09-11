@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './main.css';
 import Post from '../Post/post.js';
 
 function Main() {
@@ -12,7 +12,7 @@ function Main() {
                     </td>
                 </tr>
                 <tr className="Shadow"><td>.</td></tr>
-            </table>
+            </table><br/><br/>
             <Post/>
         </header>
     );
