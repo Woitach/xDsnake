@@ -1,13 +1,15 @@
 import React from 'react';
 import './post.css';
 
-function Main() {
+function Postscript(title, descript) {
+    var title = "siema";
+    var descript = "siema";
     return (
         <header>
             <table className="titletable">
                 <tr>
                     <td className="description">
-                        Bardzo ciekawy post<br/><br/>
+                        {title}<br/><br/>
                     </td>
                 </tr>
                 <tr>
@@ -20,4 +22,4 @@ function Main() {
     );
 }
 
-export default Main
+export default Postscript
