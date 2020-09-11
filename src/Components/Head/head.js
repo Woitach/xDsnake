@@ -7,12 +7,9 @@ function Header() {
         <header>
             <nav>
             <div className="head">
-                <a></a>
-                <ul>
-                    <li><a href="/Main">Aktualności</a></li>
-                    <li><a href="/About">O mnie</a></li>
-                    <li><a href="/Contact">Kontakt</a></li>
-                </ul>
+                    <a href="/home"><button className="Buttons">Aktualności</button></a>
+                    <a href="/About"><button className="Buttons">O mnie</button></a>
+                    <a href="/Contact"><button className="Buttons">Kontakt</button></a>
             </div>
             </nav>
                 <div className="LRlist">
