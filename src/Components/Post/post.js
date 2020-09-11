@@ -1,19 +1,16 @@
 import React from 'react';
 import './style.css';
-import Post from '../Post/post.js';
 
 function Main() {
     return (
         <header>
-            <table className="title">
+            <table className="description">
                 <tr>
                     <td >
-                        Aktualności<br/><br/>
+                        To jest Post<br/><br/>
                     </td>
                 </tr>
-                <tr className="Shadow"><td>.</td></tr>
             </table>
-            <Post/>
         </header>
     );
 }

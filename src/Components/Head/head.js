@@ -8,9 +8,11 @@ function Header() {
             <nav>
             <div className="head">
                     <a className = "blog">WW Blog</a>
-                    <a href="/home"><button className="Buttons">Aktualności</button></a>
-                    <a href="/About"><button className="Buttons">O mnie</button></a>
                     <a href="/Contact"><button className="Buttons">Kontakt</button></a>
+                    <a href="/About"><button className="Buttons">O mnie</button></a>
+                    <a href="/home"><button className="Buttons">Aktualności</button></a>
+                    
+                    
             </div>
             </nav>
                 <div className="LRlist">
