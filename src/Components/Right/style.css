@@ -1,0 +1,14 @@
+.links{
+    width: 30px;
+}
+.Rightsite{
+    width: 25%;
+    background-color: #EEEEEE;
+    float: right;
+    height: 500px;
+}
+.al{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}

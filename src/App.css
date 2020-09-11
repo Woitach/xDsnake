@@ -1,44 +1,16 @@
-.head{
-  height: 40px;
-  background-color: #333333;
-}
-.LRlist{
-  height: 350px;
-  background-image: linear-gradient(to right, blue, pink);
-}
 .App {
   font-family: Tahoma;
   text-align: center;
-}
-.Rightsite{
-  width: 25%;
-  background-color: #EEEEEE;
-  float: right;
-  height: 500px;
 }
 .Leftsite{
   width: 100%;
   float: left;
   height: 100%;
 }
-.al{
-  width: 100%;
-  text-align: center;
-  align-items: center;
-}
-.title{
-  margin: auto;
-  align-items: center;
-  width: 30%;
-  height: 22px;
-  background-color: #EEEEEE;
-}
 .tble{
   width: 100%;
 }
-.links{
-  width: 30px;
-}
+
 .HeadButtons{
   width: 10%;
   height: 100%;
