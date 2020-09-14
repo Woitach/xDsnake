@@ -16,19 +16,15 @@ function Postapost() {
     }
     return (
         <header>
-            <table className="titletable">
-                <tr>
-                    <td className="description">
+            <div className="titletable">
+                <ul className="description">
                         <input type="text" id="titlee"></input>
                         <button onClick={Send}>send</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td className="title2">
+                </ul>
+                <ul className="title2">
                         <input type="text" id="descripti"></input>
-                    </td>
-                </tr>
-            </table><br/><br/>
+                </ul>
+            </div><br/><br/>
             
             <div id="Postt">
                 <ul >
@@ -41,4 +37,4 @@ function Postapost() {
     
 }
 
-export default Postapost
+export default Postapost;

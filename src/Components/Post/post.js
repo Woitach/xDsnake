@@ -20,4 +20,4 @@ function Postscript({title, descript}) {
     );
 }
 
-export default Postscript
+export default Postscript;

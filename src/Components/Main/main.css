@@ -1,13 +1,13 @@
 .title{
     margin: auto;
     align-items: center;
-    width: 30%;
+    width: 80%;
     height: 22px;
     background-color: #EEEEEE;
     border:0;
 }
 .Shadow{
-  background-image: linear-gradient(to right, #EEEEEE, black, #EEEEEE);
+  background-image: linear-gradient(to right, #EEEEEE, blue, #EEEEEE);
   height: 2px;
   font-size: 1px;
 }
