@@ -1,22 +1,16 @@
 import React from 'react';
 import './post.css';
 
-function Postscript({title, descript}) {
+function Postscript({ title, descript }) {
     return (
-        <header>
-            <table className="titletable">
-                <tr>
-                    <td className="description">
-                        {title}<br/><br/>
-                    </td>
-                </tr>
-                <tr>
-                    <td className="title2">
-                        {descript}
-                    </td>
-                </tr>
-            </table><br/><br/>
-        </header>
+        <div className="titletable">
+            <ul className="description">
+                {title}<br /><br />
+            </ul>
+            <ul className="title2">
+                {descript}
+            </ul><br />
+        </div>
     );
 }
 

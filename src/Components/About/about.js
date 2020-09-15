@@ -1,18 +1,16 @@
 import React from 'react';
-import './style.css';
+import './about.css';
+import Right from '../Right/right.js';
 
 function About() {
     return (
-        <header>
-            <table className="title">
-              <tr>
-                <td>
-                    O mnie<br/><br/>
-                </td>
-                </tr>
-                <tr className="Shadow"><td>.</td></tr>
-            </table>
-        </header>
+        <div className="centeabout" >
+            <Right />
+            <ul className="titleabout">
+                O mnie
+        </ul>
+            <ul className="Shadowabout"></ul>
+        </div>
     );
 }
 

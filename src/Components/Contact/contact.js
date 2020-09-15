@@ -1,18 +1,16 @@
 import React from 'react';
-import './style.css';
+import './contact.css';
+import Right from '../Right/right.js';
 
 function Contact() {
     return (
-        <header>
-            <table className="title">
-              <tr>
-                <td>
-                    Kontakt<br/><br/>
-                </td>
-                </tr>
-                <tr className="Shadow"><td>.</td></tr>
-            </table>
-        </header>
+        <div className="centehead" >
+            <Right />
+            <ul className="titlehead">
+                Kontakt<br /><br />
+            </ul>
+            <ul className="Shadowhead"></ul>
+        </div>
     );
 }
 

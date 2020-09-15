@@ -11,13 +11,13 @@ import { BrowserRouter, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-        <BrowserRouter>
+      <BrowserRouter>
         <Header />
         <main className="Leftsite">
-          <Right /> 
-          <Route path='/home' component={Main}/>
-          <Route path='/about' component={About}/>
-          <Route path='/contact' component={Contact}/>
+          
+          <Route path='/home' component={Main} />
+          <Route path='/about' component={About} />
+          <Route path='/contact' component={Contact} />
         </main>
       </BrowserRouter>
     </div>

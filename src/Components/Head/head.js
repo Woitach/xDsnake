@@ -1,24 +1,20 @@
 import React from 'react';
-import './style.css';
+import './head.css';
 import logo from '../../mater/Logo.jpg';
 
 function Header() {
     return (
-        <header>
-            <nav>
+        <nav>
             <div className="head">
-                    <a className = "blog">WW Blog</a>
-                    <a href="/Contact"><button className="Buttons">Kontakt</button></a>
-                    <a href="/About"><button className="Buttons">O mnie</button></a>
-                    <a href="/home"><button className="Buttons">Aktualności</button></a>
-                    
-                    
+                <a className="blog">WW Blog</a>
+                <a href="/Contact"><button className="Buttons">Kontakt</button></a>
+                <a href="/About"><button className="Buttons">O mnie</button></a>
+                <a href="/home"><button className="Buttons">Aktualności</button></a>
             </div>
-            </nav>
-                <div className="LRlist">
-                    <img width="300" height="300" src={logo} alt="logo.jpg "/>
-                </div> 
-        </header>
+            <div className="LRlist">
+                <img width="300" height="300" src={logo} alt="logo.jpg " />
+            </div>
+        </nav>
     );
 }
 

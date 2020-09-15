@@ -1,11 +1,18 @@
-.title{
+.titlehead{
   margin: auto;
   align-items: center;
   width: 30%;
-  height: 22px;
+  height: 33px;
   background-color: #EEEEEE;
+  font-size: 25px;
 }
-.Shadow{
+.centehead{
+  width: 100%;
+  float: left;
+}
+.Shadowhead{
+width: 30%;
+margin: auto;
 background-image: linear-gradient(to right, #EEEEEE, black, #EEEEEE);
 height: 2px;
 font-size: 1px;

@@ -1,20 +1,22 @@
 import React from 'react';
-import '.main.css';
+import './main.css';
 import Postapost from '../Postapost/postapost.js';
+import Right from '../Right/right.js';
 
 function Main() {
     let title1 = "";
     let descript1 = "";
     return (
-        <header>
-            <div className="title">
-                <ul>
-                        Aktualności
+        <div className="centemain" >
+            <Right />
+            <ul className="titlemain">
+                Aktualności
                 </ul>
-                <div className="Shadow"></div>
-            </div><br/><br/>
-            <Postapost/>
-        </header>
+            <ul className="Shadowmain"></ul>
+            
+            <Postapost /><br /><br />
+        </div>
+
     );
 }
 
