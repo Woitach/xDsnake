@@ -6,7 +6,6 @@ import ig from '../../mater/instagram.jpg';
 
 function Right() {
   return (
-    <div className="al">
       <aside className="Rightsite">
         <br /><br />
         <input type="text"></input><button>Szukaj</button><p />
@@ -19,8 +18,7 @@ function Right() {
         <a href="https://www.instagram.com/wojta68/?hl=pl" target="_blank">
           <img className="links" src={ig} alt="igcon" />
         </a>
-      </aside><br />
-    </div>
+      </aside>
   );
 }
 

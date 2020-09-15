@@ -1,39 +1,52 @@
-import React, { createElement } from 'react';
+import React, { createElement, useState } from 'react';
 import './postapost.css';
-import Post from '../Post/post.js';
 import Main from '../Main/main.js';
+import { Post } from '../Post/post.js';
 
 
 function Postapost() {
-    let title = "";
-    let descript = "";
-    function Send() {
-        title = document.getElementById('titlee').value;
-        descript = document.getElementById('descripti').value;
-        let posttt = document.createElement("Post");
-        posttt.setAttribute("title", title);
-        posttt.setAttribute("descript", descript);
-        let parent = document.getElementById("list");
-        parent.append(posttt);
+    const [posts, setPosts] = useState([]);
+    const [title, setTitle] = useState("");
+    const miesiace = ["Styczeń","Luty","Marzec","Kwiecień","Maj","Czerwiec","Lipiec","Sierpień","Wrzesień","Październik","Listopad","Grudzień"];
+    const date = new Date();
+    const data = ""+ date.getDay() + "/" + miesiace[date.getMonth()] + "  " + date.getHours() + ":" + date.getMinutes();
+    const [description, setDescription] = useState("");
+    const addPost = (post) => {
+        setPosts([post, ...posts]);
+    }
+    const onbutton = () => {
+        const post = { title, description };
+        addPost(post);
     }
     return (
         <div>
-            <div className="titletable">
+            <div className="titletablep">
                 <ul className="description">
-                    <input type="text" id="titlee"></input>
-                    <button onClick={Send}>send</button>
+                    <li>
+                        <input type="text"
+                            placeholder="Tytuł"
+                            value={title} onChange={(e) => setTitle(e.target.value)}>
+                        </input>
+                        <button className="sbutton" onClick={onbutton}>Wstaw Post</button>
+                    </li>
+                    <li>
+                        <textarea
+                            className="title2"
+                            placeholder="Opis"
+                            rows="3"
+                            value={description} onChange={(e) => setDescription(e.target.value)}>
+                        </textarea>
+                    </li>
+                    <li>
+                        <br/><br/>{posts.length === 0 && <p>Brak</p>}
+                        {posts.map((post) => (
+                            <Post title={post.title} description={post.description} data={data}/>
+                        ))}
+                    </li>
                 </ul>
-                <ul className="title2">
-                    <input type="text" id="descripti"></input>
-                </ul>
-            </div><br /><br />
-
-            <div id="list">
-                <Post title={title} descript={descript} />
             </div>
         </div>
     );
-
 }
 
 export default Postapost;

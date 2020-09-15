@@ -4,13 +4,15 @@
     background-image: linear-gradient(#EEEEEE,white);
 }
 .title2{
-    margin-left: 50px;
     float:left;
+    width: 95%;
 }
-.titletable{
-    width: 75%;
+.titletablep{
+    width: 72%;
 }
 ul{
-    margin-left: -5%;
     list-style-type: none;
+}
+.sbutton{
+    float: right;
 }

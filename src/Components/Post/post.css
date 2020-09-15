@@ -1,13 +1,19 @@
-.description{
-    width: 100%;
+.descriptionx{
+    width: 96%;
     height: 22px;
-    background-image: linear-gradient(#EEEEEE,white);
-}
-.title2{
-    margin-left: 50px;
-    float:left;
 }
 .titletable{
-    width: 100%;
-    margin: auto;
+    background-image: linear-gradient(#EEEEEE,#FFFFFE);
+    margin-left: -4%;
+    float: left;
+    width: 104%;
+}
+.descript{
+    align-content: center;
+    float:left;
+    width: 96%;
+    word-wrap: break-word;
+}
+.X{
+    float: right;
 }
