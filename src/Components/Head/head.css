@@ -4,19 +4,24 @@
     background-color: #333333;
 }
 .LRlist{
-  height: 350px;
+  height: 20%;
   background-image: linear-gradient(to right, blue, pink);
 }
 .table{
   width: 100%;
   height: 100%;
 }
+.zdjecie{
+  width:25%;
+  height:25%;
+}
 .Buttons{
   float: right;
   color: white;
-  width: 120px;
+  width: 20%;
   height: 100%;
   background-color: #333333;  
+  border-color: #444444;
 }
 .blog{
   font-size: 30px;

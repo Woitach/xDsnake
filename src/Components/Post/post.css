@@ -1,19 +1,20 @@
-.descriptionx{
-    width: 96%;
-    height: 22px;
+.tabb{
+    background-color: white;
+    float: left;    
+    width: 75%;
+    height: auto;
 }
-.titletable{
-    background-image: linear-gradient(#EEEEEE,#FFFFFE);
-    margin-left: -4%;
-    float: left;
-    width: 104%;
-}
-.descript{
-    align-content: center;
+.opis{
     float:left;
-    width: 96%;
+    text-align: left;
+    width: 100%;
     word-wrap: break-word;
+    background-color: white;
 }
 .X{
     float: right;
+    margin-right: 10%;
+}
+.posthead{
+    background-image: linear-gradient(rgb(185, 185, 255),#eeeeee);
 }

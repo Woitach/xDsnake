@@ -1,19 +1,20 @@
-.titleabout{
-  margin: auto;
+.titleabout {
+  margin-left: 20%;
   align-items: center;
-  width: 30%;
+  width: 35%;
   height: 33px;
   background-color: #EEEEEE;
   font-size: 25px;
 }
-.centeabout{
+
+.centeabout {
   width: 100%;
   float: left;
 }
-.Shadowabout{
-width: 30%;
-margin: auto;
-background-image: linear-gradient(to right, #EEEEEE, black, #EEEEEE);
-height: 2px;
-font-size: 1px;
+
+.Shadowabout {
+  width: 100%;
+  background-image: linear-gradient(to right, #EEEEEE, black, #EEEEEE);
+  height: 2px;
+  font-size: 1px;
 }

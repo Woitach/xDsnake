@@ -4,17 +4,14 @@ import Postapost from '../Postapost/postapost.js';
 import Right from '../Right/right.js';
 
 function Main() {
-    let title1 = "";
-    let descript1 = "";
     return (
         <div className="centemain" >
             <Right />
-            <ul className="titlemain">
+            <p className="titlemain">
                 Aktualności
-                </ul>
-            <ul className="Shadowmain"></ul>
-            
-            <Postapost /><br /><br />
+                <p className="Shadowmain"></p>
+            </p>
+            <Postapost />
         </div>
 
     );

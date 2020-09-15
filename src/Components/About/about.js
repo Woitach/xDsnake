@@ -6,10 +6,11 @@ function About() {
     return (
         <div className="centeabout" >
             <Right />
-            <ul className="titleabout">
+            <p className="titleabout">
                 O mnie
-        </ul>
-            <ul className="Shadowabout"></ul>
+                <p className="Shadowabout"></p>
+        </p>
+            
         </div>
     );
 }

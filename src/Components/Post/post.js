@@ -1,24 +1,19 @@
 import React, { createElement, useState } from 'react';
 import './post.css';
-
-
+import Coms from './Coment/coms.js';
 
 export const Post = ({ title, description, data }) => (
-    <div className="titletable">
-        <ul className="descriptionx">
-            <li>
-                {title}
+    <div className="tabb">
+        <div>
+            <ul className="posthead">{title}
                 <div className="X">
                     {data}
                 </div>
-
-            </li>
-
-        </ul>
-        <ul>
-            <li className="descript">
+            </ul>
+            <div className="opis">
                 {description}
-            </li>
-        </ul>
+            </div>
+        </div>
+        <Coms />
     </div>
 )

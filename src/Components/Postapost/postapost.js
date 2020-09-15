@@ -7,9 +7,9 @@ import { Post } from '../Post/post.js';
 function Postapost() {
     const [posts, setPosts] = useState([]);
     const [title, setTitle] = useState("");
-    const miesiace = ["Styczeń","Luty","Marzec","Kwiecień","Maj","Czerwiec","Lipiec","Sierpień","Wrzesień","Październik","Listopad","Grudzień"];
+    const miesiace = ["Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "Lipiec", "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień"];
     const date = new Date();
-    const data = ""+ date.getDay() + "/" + miesiace[date.getMonth()] + "  " + date.getHours() + ":" + date.getMinutes();
+    const data = "" + date.getDay() + "/" + miesiace[date.getMonth()] + "  " + date.getHours() + ":" + date.getMinutes();
     const [description, setDescription] = useState("");
     const addPost = (post) => {
         setPosts([post, ...posts]);
@@ -19,32 +19,22 @@ function Postapost() {
         addPost(post);
     }
     return (
-        <div>
-            <div className="titletablep">
-                <ul className="description">
-                    <li>
-                        <input type="text"
-                            placeholder="Tytuł"
-                            value={title} onChange={(e) => setTitle(e.target.value)}>
-                        </input>
-                        <button className="sbutton" onClick={onbutton}>Wstaw Post</button>
-                    </li>
-                    <li>
-                        <textarea
-                            className="title2"
-                            placeholder="Opis"
-                            rows="3"
-                            value={description} onChange={(e) => setDescription(e.target.value)}>
-                        </textarea>
-                    </li>
-                    <li>
-                        <br/><br/>{posts.length === 0 && <p>Brak</p>}
-                        {posts.map((post) => (
-                            <Post title={post.title} description={post.description} data={data}/>
-                        ))}
-                    </li>
-                </ul>
-            </div>
+        <div className="titletablepp">
+                <input type="text"
+                    placeholder="Tytuł"
+                    value={title} onChange={(e) => setTitle(e.target.value)}>
+                </input>
+                <button className="sbutton" onClick={onbutton}>Wstaw Post</button>
+                <textarea
+                    className="title2"
+                    placeholder="Opis"
+                    rows="3"
+                    value={description} onChange={(e) => setDescription(e.target.value)}>
+                </textarea>
+                {posts.length === 0 && <p className="Posty">Brak</p>}
+                {posts.map((post) => (
+                    <div><Post title={post.title} description={post.description} data={"" + date.getDay() + "/" + miesiace[date.getMonth()] + "  " + date.getHours() + ":" + date.getMinutes()} /></div>
+                ))}
         </div>
     );
 }

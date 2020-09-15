@@ -6,10 +6,11 @@ function Contact() {
     return (
         <div className="centehead" >
             <Right />
-            <ul className="titlehead">
-                Kontakt<br /><br />
-            </ul>
-            <ul className="Shadowhead"></ul>
+            <p className="titlehead">
+                Kontakt
+                <p className="Shadowhead"></p>
+            </p>
+            
         </div>
     );
 }

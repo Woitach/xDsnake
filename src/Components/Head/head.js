@@ -12,7 +12,7 @@ function Header() {
                 <a href="/home"><button className="Buttons">Aktualności</button></a>
             </div>
             <div className="LRlist">
-                <img width="300" height="300" src={logo} alt="logo.jpg " />
+                <img className="zdjecie" src={logo} alt="logo.jpg " />
             </div>
         </nav>
     );

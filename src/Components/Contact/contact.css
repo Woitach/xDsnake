@@ -1,19 +1,20 @@
-.titlehead{
-  margin: auto;
+.titlehead {
+  margin-left: 20%;
   align-items: center;
-  width: 30%;
+  width: 35%;
   height: 33px;
   background-color: #EEEEEE;
   font-size: 25px;
 }
-.centehead{
+
+.centehead {
   width: 100%;
   float: left;
 }
-.Shadowhead{
-width: 30%;
-margin: auto;
-background-image: linear-gradient(to right, #EEEEEE, black, #EEEEEE);
-height: 2px;
-font-size: 1px;
+
+.Shadowhead {
+  width: 100%;
+  background-image: linear-gradient(to right, #EEEEEE, black, #EEEEEE);
+  height: 2px;
+  font-size: 1px;
 }

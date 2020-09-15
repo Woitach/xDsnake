@@ -5,5 +5,11 @@
     width: 25%;
     background-color: #EEEEEE;
     float: right;
-    height: auto;
+    height: 500px;
+}
+.top{
+    margin-top: 30px;
+}
+.search{
+    width: 90%;
 }

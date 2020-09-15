@@ -1,18 +1,20 @@
-.description{
+.title2{
+    width: 73%;
+    margin:auto;
+    resize: none;
+}
+.titletablepp{
     width: 100%;
     height: 22px;
     background-image: linear-gradient(#EEEEEE,white);
-}
-.title2{
-    float:left;
-    width: 95%;
-}
-.titletablep{
-    width: 72%;
 }
 ul{
     list-style-type: none;
 }
 .sbutton{
     float: right;
+}
+.Posty{
+    float:left;
+    margin-top: 100px;
 }
